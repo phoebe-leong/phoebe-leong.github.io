@@ -1,0 +1,143 @@
+html {
+    background-image: url("https://cdn.glitch.com/ca419883-a7a2-45f5-8264-3fc76385439f%2Fbackground.png?v=1619062062957");
+    background-attachment: fixed;
+  }
+  
+  /* fonts - obviously */
+  
+  @font-face {
+    font-family: 'Roboto-Bold';
+    src: url('./Roboto_Mono/static/RobotoMono-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('./Roboto_Mono/static/RobotoMono-ThinItalic.ttf');
+  }
+  
+  body {
+    margin: 2em;
+  }
+  
+  h1, h2, p {
+    color: #1a1c20;
+  }
+  
+  p, li  {
+    font-family: 'Roboto-LightItalic', sans-serif;
+  }
+  
+  h1, h2 {
+    font-family: 'Roboto-Bold', sans-serif;
+  }
+  
+  a, li {
+    color: #1a1c20;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    color: #1a1c20;
+  }
+  
+  /* just class stuff, customisation and such for global things like navigation styling */
+  
+  .copyright {
+    font-family: 'Roboto-LightItalic', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .navlink {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Roboto-LightItalic', sans-serif;
+  }
+  
+  .navlink:hover, .navlink:focus {
+    border-bottom: 2px solid #1a1c20;
+    text-decoration: none;
+  }
+  
+  #intro-title-1 {
+    text-align: left;
+    color: white;
+  }
+    a, li {
+      text-decoration: none;
+      font-family: 'Roboto-LightItalic', sans-serif;
+    }
+    
+    a:hover, a:focus {
+      text-decoration: none;
+    }
+  
+    li {
+      font-size: 16px;
+    }
+  
+    .buttonlinks:hover, .buttonLinks:focus {
+      border: none;
+    }
+  
+  .intro-link {
+    font-family: 'Roboto-LightItalic', sans-serif;
+    text-decoration: underline;
+  }
+  
+  #intro-link {
+    border-bottom: #1a1c20 1px solid;
+  }
+  
+  #intro-link:hover, #intro-link:focus {
+    border-bottom: none;
+  }
+  
+  .info {
+    font-family: 'Roboto-Bold', sans-serif;
+  }
+  
+  nav {
+    background-image: url("https://cdn.glitch.com/ca419883-a7a2-45f5-8264-3fc76385439f%2Fbackground.png?v=1619062062957");
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .infoLink {
+    text-decoration: underline;
+    font-family: 'Roboto-Bold', sans-serif;
+  }
+  
+  .infoLink:hover, #infoLink:focus {
+    text-decoration: none;
+  }
+  
+  button {
+    font-family: 'Roboto-Bold', sans-serif;
+    border: 2px solid #1a1c20;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+    background-color: transparent;
+  }
+  
+  button:hover, button:focus {
+    background-color: #1a1c20;
+    color: #F17F39;
+  }

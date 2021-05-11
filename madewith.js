@@ -1,0 +1,1 @@
+console.log('Mobile browser detection made with http://detectmobilebrowsers.com/')

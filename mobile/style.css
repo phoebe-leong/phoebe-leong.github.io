@@ -1,0 +1,105 @@
+
+html {
+    background-image: url("https://cdn.glitch.com/ca419883-a7a2-45f5-8264-3fc76385439f%2Fbackground.png?v=1619062062957");
+    opacity: 50;
+    font-size: 15px;
+  }
+  
+  /* fonts - obviously */
+  
+  @font-face {
+    font-family: 'Roboto-Bold';
+    src: url('./Roboto_Mono/static/RobotoMono-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('./Roboto_Mono/static/RobotoMono-ThinItalic.ttf');
+  }
+  
+  h1, h2, p {
+    color: #1a1c20;
+  }
+  
+  p, li  {
+    font-family: 'Roboto-LightItalic', sans-serif;
+  }
+  
+  h1, h2 {
+    font-family: 'Roboto-Bold', sans-serif;
+  }
+  
+  a {
+    color: #1a1c20;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    color: #1a1c20;
+  }
+  
+  /* just class stuff, customisation and such for worldwide things like navigation styling */
+  
+  .copyright {
+    font-family: 'Roboto-LightItalic', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .navlink {
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Roboto-LightItalic', sans-serif;
+  }
+  
+  #intro-title-1 {
+    text-align: left;
+    color: white;
+  }
+  
+    a, li {
+      text-decoration: none;
+      font-family: 'Roboto-LightItalic', sans-serif;
+    }
+  
+    li {
+      font-size: 16px;
+    }
+  
+  #intro-link {
+    font-family: 'Roboto-LightItalic', sans-serif;
+  }
+  
+  #intro-link {
+    border-bottom: #1a1c20 1px solid;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  .navbar {
+    margin: 2em;
+  }
+  
+  .info {
+    font-family: 'Roboto-Bold', sans-serif;
+  }
+  
+  .infoLink {
+    text-decoration: underline;
+    font-family: 'Roboto-Bold', sans-serif;
+  }
+  
+  button {
+    font-family: 'Roboto-Bold', sans-serif;
+    border: 2px solid #1a1c20;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+    background-color: transparent;
+  }
