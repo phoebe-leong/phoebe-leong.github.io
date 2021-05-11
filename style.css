@@ -7,12 +7,12 @@ html {
   
   @font-face {
     font-family: 'Roboto-Bold';
-    src: url('./Roboto_Mono/static/RobotoMono-Bold.ttf');
+    src: url('RobotoMono-Bold.ttf');
   }
   
   @font-face {
     font-family: 'Roboto-LightItalic';
-    src: url('./Roboto_Mono/static/RobotoMono-ThinItalic.ttf');
+    src: url('RobotoMono-ThinItalic.ttf');
   }
   
   body {
