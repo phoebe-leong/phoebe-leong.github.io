@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+}
+
+@font-face {
+    font-family: 'InconsolataBold';
+    src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+}
+
+html {
+    color: #1a1c20;
+}
+
+li {
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p, li, a {
+    font-family: 'Inconsolata', monospace;
+}
+
+h1, h2 {
+    font-family: 'Inconsolata', monospace;
+}
