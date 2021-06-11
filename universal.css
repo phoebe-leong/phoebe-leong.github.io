@@ -8,8 +8,11 @@
     src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
 }
 
-html {
+* {
     color: #1a1c20;
+}
+
+html {
     background-image: url("https://cdn.glitch.com/ca419883-a7a2-45f5-8264-3fc76385439f%2Fbackground.png?v=1619062062957");
     background-attachment: fixed;
 }
@@ -21,6 +24,7 @@ li {
 
 a {
     text-decoration: underline;
+
 }
 
 a:hover, a:focus {
