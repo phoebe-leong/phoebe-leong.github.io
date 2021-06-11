@@ -10,6 +10,8 @@
 
 html {
     color: #1a1c20;
+    background-image: url("https://cdn.glitch.com/ca419883-a7a2-45f5-8264-3fc76385439f%2Fbackground.png?v=1619062062957");
+    background-attachment: fixed;
 }
 
 li {
@@ -34,5 +36,19 @@ p, li, a {
 }
 
 h1, h2 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'InconsolataBold', monospace;
 }
+
+.copyright {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    font-size: 15px;
+}
+
+button {
+    border: 2px solid #1a1c20;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+    background-color: transparent;
+  }

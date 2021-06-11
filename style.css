@@ -1,26 +1,9 @@
-html {
-    background-image: url("https://cdn.glitch.com/ca419883-a7a2-45f5-8264-3fc76385439f%2Fbackground.png?v=1619062062957");
-    background-attachment: fixed;
-  }
-
   body {
     margin: 2em;
   }
   
-  h1, h2 {
-    font-family: 'InconsolataBold', monospace;
-  }
-  
   a, li {
     text-decoration: none;
-    color: #1a1c20;
-  }
-  
-  /* just class stuff, customisation and such for global things like navigation styling */
-  
-  .copyright {
-    font-size: 15px;
-    text-align: center;
   }
 
   .navlink {
@@ -53,15 +36,6 @@ html {
     left: 0;
     padding: 0;
     margin: 0;
-  }
-  
-  button {
-    font-family: 'Inconsolata', monospace;
-    border: 2px solid #1a1c20;
-    cursor: pointer;
-    width: 110px;
-    height: 50px;
-    background-color: transparent;
   }
   
   button:hover, button:focus {
