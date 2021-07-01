@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Inconsolata';
-    src: url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-}
-
-@font-face {
-    font-family: 'InconsolataBold';
-    src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
-}
-
 * {
     color: #1a1c20;
 }
@@ -19,7 +9,7 @@ html {
 
 li {
     text-decoration: none;
-    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
 }
 
 a {
@@ -36,15 +26,15 @@ ul {
 }
 
 p, li, a {
-    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
 }
 
 h1, h2 {
-    font-family: 'InconsolataBold', monospace;
+    font-family: monospace;
 }
 
 .copyright {
-    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
     text-align: center;
     font-size: 15px;
 }
