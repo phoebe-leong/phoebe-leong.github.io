@@ -1,44 +1,59 @@
-  body {
-    margin: 2em;
-  }
-  
-  a, li {
-    text-decoration: none;
-  }
 
-  .navlink {
-    float: left;
-    display: block;
+/* -- Fonts -- */
+@font-face {
+    font-family: 'Bold';
+    src: url(Fonts/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url(Fonts/RobotoMono-Regular.ttf);
+}
+
+* {
+    color: #FCF1F1;
+    background-color: #1A1C21;
+
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#navbar, h2, h1 {
+    font-family: 'Bold';
+}
+
+.navlink:hover, .navlink:focus, a:hover, a:focus {
+    text-decoration: none;
+}
+
+#copyright {
+    font-family: 'Light';
+    font-size: 13px;
+}
+
+p, li, a {
+    font-family: 'Regular';
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: 2px solid #FCF1F1;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+    font-family: 'Regular';
     text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  .navlink:hover, .navlink:focus {
-    border-bottom: 2px solid #1a1c20;
-    text-decoration: none;
-  }
-  
-    li {
-      font-size: 16px;
-    }
-  
-    .buttonlinks:hover, .buttonLinks:focus {
-      border: none;
-    }
-  
-  nav {
-    background-image: url("https://cdn.glitch.com/ca419883-a7a2-45f5-8264-3fc76385439f%2Fbackground.png?v=1619062062957");
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0;
-    margin: 0;
-  }
-  
-  button:hover, button:focus {
-    background-color: #1a1c20;
-    color: #F17F39;
-  }
+    background-color: transparent;
+}
+
+button:hover {
+    color: #1A1C21;
+    background-color: #FCF1F1;
+}

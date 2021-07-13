@@ -1,20 +1,49 @@
-  a {
-    text-decoration: none;
-  }
-  
-  ul {
+
+/* -- Fonts -- */
+@font-face {
+    font-family: 'Bold';
+    src: url(Fonts/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url(Fonts/RobotoMono-Regular.ttf);
+}
+
+* {
+    color: #FCF1F1;
+    background-color: #1A1C21;
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#navbar, h2, h1 {
+    font-family: 'Bold';
+}
+
+p, li, a {
+    font-family: 'Regular';
+    font-size: 15px;
+}
+
+ul {
     list-style-type: none;
-  }
-  
-  .navlink {
-    padding: 5px;
-    text-decoration: none;
-  }
-  
-    li {
-      font-size: 16px;
-    }
-  
-  .navbar {
-    margin: 2em;
-  }
+}
+
+button {
+    border: 2px solid #FCF1F1;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+    font-family: 'Regular';
+    text-align: center;
+    background-color: transparent;
+}
+
+button:hover {
+    color: #1A1C21;
+    background-color: #FCF1F1;
+}
