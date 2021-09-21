@@ -1,1 +1,0 @@
-console.log("Mobile browser detection made with https://detectmobilebrowsers.com");

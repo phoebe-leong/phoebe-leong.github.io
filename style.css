@@ -25,7 +25,7 @@ h1 {
     font-family: 'Bold';
 }
 
-.navlink:hover, .navlink:focus, a:hover, a:focus {
+a:hover, a:focus {
     text-decoration: none;
 }
 
