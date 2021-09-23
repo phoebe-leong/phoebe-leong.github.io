@@ -2,12 +2,12 @@
 /* -- Fonts -- */
 @font-face {
     font-family: 'Bold';
-    src: url(Fonts/RobotoMono-Bold.ttf);
+    src: url(../Fonts/RobotoMono-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Regular';
-    src: url(Fonts/RobotoMono-Regular.ttf);
+    src: url(../Fonts/RobotoMono-Regular.ttf);
 }
 
 * {
