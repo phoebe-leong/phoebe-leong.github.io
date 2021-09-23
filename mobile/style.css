@@ -42,8 +42,3 @@ button {
     text-align: center;
     background-color: transparent;
 }
-
-button:hover {
-    color: #1A1C21;
-    background-color: #FCF1F1;
-}
