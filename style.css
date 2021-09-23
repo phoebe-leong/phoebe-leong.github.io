@@ -13,7 +13,6 @@
 * {
     color: #FCF1F1;
     background-color: #16171A;
-
     padding-left: 10px;
 }
 
@@ -27,11 +26,6 @@ h1 {
 
 a:hover, a:focus {
     text-decoration: none;
-}
-
-#copyright {
-    font-family: 'Light';
-    font-size: 13px;
 }
 
 p, li, a {
