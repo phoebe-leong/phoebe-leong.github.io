@@ -1,2 +1,3 @@
 # phoebe-leong.github.io
-My website for all of my dumb stuff :P
+My website :P  
+Please make an issue or a pull request if you find any bugs or just want to add something cool to the site
