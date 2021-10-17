@@ -11,9 +11,25 @@
         <meta name="keywords" content="ph3b3, ph3">
 
         <script src="detectmobilebrowser.js"></script>
-        <script src="madewith.js"></script>
         <link rel="stylesheet" href="style.css">
         <title>ph3b3</title>
+
+        <script>
+            /**
+             * The following code minuses the year that this code was written (2021) from the current year
+             * and plusses the result to the age ph3b3 was/is in 2021 (14).
+             * 
+             * Then the result of that is appended to "Age: " and set as the text for the element holding the "age" identifier.
+             * 
+             * "window.onload = function() { ... }" is used so that this code can be placed within the <head> part of the code.
+             * Without "window.onload = function() { ... }", this code would have to be placed underneath the element holding the "age" identifier
+             * so that Javascript could find it.
+            */
+
+            window.onload = function() {
+                document.getElementById("age").innerHTML = "Age: " + (14 + (2021 - new Date().getUTCFullYear()));
+            }
+        </script>
     </head>
     <body>
         <main>
@@ -24,7 +40,14 @@
                     <a class="navlink" href="https://github.com/phoebe-leong/?tab=repositories">github</a>
                     <a class="navlink" href="stories.html">stories</a>
                 </ul>
-            </nav><br><br><br><br><br>
+            </nav><br>
+
+            <noscript>
+                <h1>You must enable Javascript to use this website.</h1><br>
+                <h2>Please go and do that now. Thnx <3.</h2><br><br>
+            </noscript>
+            
+            <br><br><br><br>
             <p>Ph3b3 first started learning HTML and CSS around 2018, when she was in year 5.<br>
             The first real programming language she (half) learnt was C++, when she decided to make a program for her crush. It failed.<br>
             Ph3be would later visit the language in high school, but at the time she didn't know that.<br><br>
@@ -38,7 +61,7 @@
             <h2>General information about Ph3b3</h2>
             <ul>
                 <li class="info">Name: Phoebe/Darius</li><br>
-                <li class="info">Age: 14</li><br>
+                <li class="info" id="age"></li><br>
                 <li class="info">Lives: Sydney, Australia</li><br>
                 <li class="info">Languages learnt: HTML, CSS, C++</li><br>
                 <li class="info">Musical Instruments learnt: Drums/Percussion, Singing</li><br><br>
