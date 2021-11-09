@@ -8,19 +8,21 @@
         <title>ph3b3</title>
 
         <script>
-             /**
-             * The following code minuses the year that this code was written (2021) from the current year
-             * and plusses the result to the age ph3b3 was/is in 2021 (14).
-             * 
-             * Then the result of that is appended to "Age: " and set as the text for the element holding the "age" identifier.
-             * 
-             * "window.onload = function() { ... }" is used so that this code can be placed within the <head> part of the code.
-             * Without "window.onload = function() { ... }", this code would have to be placed underneath the element holding the "age" identifier
-             * so that Javascript could find it.
-            */
+            const date = new Date();
+            function getAge()
+            {
+                // Minus 2021 (the year this code was written) from the current year and plus that result to 14 (how old phebe is/was in 2021) to get phebe's current age
+                const age = 14 + (2021 - date.getUTCFullYear())
 
-            window.onload = function() {
-                document.getElementById("age").innerHTML = "Age: " + (14 + (2021 - new Date().getUTCFullYear()));
+                // If the year is not 2021 (the year this code was written) and September 26th (phebe's birthday) has not passed, minus phebe's age by one and return that value
+                if (date.getUTCFullYear() != 2021 && date.getUTCMonth() < 9 && date.getUTCDay() < 26) return age - 1;
+                return age;
+            }
+
+            // Sets phebe's age on the "General information about ph3b3" section
+            window.onload = function()
+            {
+                document.getElementById("age").innerHTML = "Age: " + getAge();
             }
         </script>
     </head>
@@ -53,14 +55,17 @@
         
             She plans to get a computer science degree at the University of Sydney and hopefully post more consistently on her SoundCloud.</p>
             <br><br><br><br>
-            <h2>General information about Ph3b3</h2>
-            <ul>
-                <li class="info">Name: Phoebe/Darius</li><br>
-                <li class="info" id="age"></li><br>
-                <li class="info">Lives: Sydney, Australia</li><br>
-                <li class="info">Languages learnt: HTML, CSS, C++</li><br>
-                <li class="info">Musical Instruments learnt: Drums/Percussion, Singing</li><br><br>
-            </ul>
+
+            <section>
+                <h2>General information about Ph3b3</h2>
+                <ul>
+                    <li class="info">Name: Phoebe/Darius</li><br>
+                    <li class="info" id="age"></li><br>
+                    <li class="info">Lives: Sydney, Australia</li><br>
+                    <li class="info">Languages learnt: HTML, CSS, C++</li><br>
+                    <li class="info">Musical Instruments learnt: Drums/Percussion, Singing</li><br><br>
+                </ul>
+            </section>
         </main>
     </body>
 </html>
