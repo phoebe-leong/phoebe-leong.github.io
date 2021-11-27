@@ -42,3 +42,11 @@ button {
     text-align: center;
     background-color: transparent;
 }
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 13px;
+}

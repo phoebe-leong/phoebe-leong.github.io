@@ -51,3 +51,11 @@ button:hover {
     color: #1A1C21;
     background-color: #FCF1F1;
 }
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 13px;
+}
