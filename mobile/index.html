@@ -12,10 +12,10 @@
             function getAge()
             {
                 // Minus 2021 (the year this code was written) from the current year and plus that result to 14 (how old phebe is/was in 2021) to get phebe's current age
-                const age = 14 + (2021 - date.getUTCFullYear())
+                const age = 14 + (date.getUTCFullYear() - 2021)
 
                 // If the year is not 2021 (the year this code was written) and September 26th (phebe's birthday) has not passed, minus phebe's age by one and return that value
-                if (date.getUTCFullYear() != 2021 && date.getUTCMonth() < 9 && date.getUTCDay() < 26) return age - 1;
+                if (date.getUTCFullYear() > 2021 && date.getUTCMonth() < 9 && date.getUTCDay() < 26) return age - 1;
                 return age;
             }
 
