@@ -20,7 +20,8 @@ h1 {
     font-size: 100px;
 }
 
-#navbar, h2, h1 {
+/* Makes the navigation text space out a little bit more */
+nav, h2, h1 {
     font-family: 'Bold';
 }
 
