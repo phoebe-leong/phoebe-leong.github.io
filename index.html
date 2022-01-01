@@ -16,36 +16,19 @@
         <link rel="stylesheet" href="style.css">
         <title>ph3b3</title>
 
-        <script>
-            const date = new Date();
-            function getAge()
-            {
-                // Minus 2021 (the year this code was written) from the current year and plus that result to 14 (how old phebe is/was in 2021) to get phebe's current age
-                const age = 14 + (2021 - date.getUTCFullYear())
-
-                // If the year is not 2021 (the year this code was written) and September 26th (phebe's birthday) has not passed, minus phebe's age by one and return that value
-                if (date.getUTCFullYear() != 2021 && date.getUTCMonth() < 9 && date.getUTCDay() < 26) return age - 1;
-                return age;
-            }
-
-            // Sets phebe's age on the "General information about ph3b3" section
-            window.onload = function()
-            {
-                document.getElementById("age").innerHTML = "Age: " + getAge();
-            }
-        </script>
+        <script src="birthday.js"></script>
     </head>
     <body>
-        <main>
-            <nav id="navbar">
-                <ul>
-                    <a class="navlink" href="index.html">home</a>
-                    <a class="navlink" href="https://soundcloud.com/ph3b3">music</a>
-                    <a class="navlink" href="https://github.com/phoebe-leong/?tab=repositories">github</a>
-                    <a class="navlink" href="stories.html">stories</a>
-                </ul>
-            </nav><br>
+        <nav id="navbar">
+            <ul>
+                <a class="navlink" href="index.html">home</a>
+                <a class="navlink" href="https://soundcloud.com/ph3b3">music</a>
+                <a class="navlink" href="https://github.com/phoebe-leong/?tab=repositories">github</a>
+                <a class="navlink" href="stories.html">stories</a>
+            </ul>
+        </nav><br>
 
+        <main id="content">
             <noscript>
                 <h1>You must enable Javascript to use this website.</h1><br>
                 <h2>Please go and do that now. Thnx <3.</h2><br><br>
