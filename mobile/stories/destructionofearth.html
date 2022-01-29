@@ -7,12 +7,22 @@
 
         <link rel="icon" href="../../favicon.png">
         <link rel="stylesheet" href="../style.css">
+
+        <script src="../../theme.js"></script>
+        <script>
+            window.onload = function() {
+                loadThemes()
+            }
+        </script>
     </head>
     <body>
         <main>
             <nav>
                 <ul>
-                    <a href="../index.html">home</a><br>
+                    <a href="../index.html">home</a>
+
+                    <a id="theme-button" onclick="toggle()">change theme</a><br>
+                    
                     <a href="https://soundcloud.com/ph3b3">music</a><br>
                     <a href="https://github.com/phoebe-leong/?tab=repositories">github</a><br>
                     <a href="https://ph3b3.carrd.co/">socials</a><br>

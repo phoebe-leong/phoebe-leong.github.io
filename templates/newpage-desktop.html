@@ -6,17 +6,27 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.png">
+
+        <script src="theme.js"></script>
+        <script>
+            window.onload = function() {
+                loadThemes()
+            }
+        </script>
+
         <title>ph3b3</title>
     </head>
     <body>
         <main>
             <nav>
                 <ul>
-                    <a href="index.html">home</a>
-                    <a href="https://soundcloud.com/ph3b3">music</a>
-                    <a href="https://github.com/phoebe-leong/?tab=repositories">github</a>
-                    <a href="https://ph3b3.carrd.co/">socials</a>
+                    <a href="index.html" target="_blank">home</a>
+                    <a href="https://soundcloud.com/ph3b3" target="_blank">music</a>
+                    <a href="https://github.com/phoebe-leong/?tab=repositories" target="_blank">github</a>
+                    <a href="https://ph3b3.carrd.co/" target="_blank">socials</a>
                     <a href="stories.html">stories</a>
+
+                    <a id="theme-button" onclick="toggle()">change theme</a>
                 </ul>
             </nav><br><br><br><br><br>
             <p>page content</p>

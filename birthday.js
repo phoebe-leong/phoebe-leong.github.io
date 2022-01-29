@@ -10,8 +10,8 @@ function getAge()
     else return age;
 }
 
-// Sets phebe's age on the "General information about ph3b3" section
-window.onload = function()
+// Sets phebe's age on the "General information about ph3b3" section - called on page load
+function setAge()
 {
     document.getElementById("age").innerHTML = "Age: " + getAge();
 }

@@ -12,8 +12,7 @@
 
 * {
     color: #FCF1F1;
-    background-color: #16171A;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 h1 {
@@ -31,6 +30,7 @@ p, li, a {
 
 ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 button {
@@ -49,4 +49,22 @@ footer {
 
 footer p {
     font-size: 13px;
+}
+
+/* Theme-changing button lol */
+#theme-button {
+    float: right;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+/* Light theme */
+
+#theme-light * {
+    color: #16171A;
+    /* Background colour is set with JavaScript */
+}
+
+#theme-light button {
+    border: 2px solid #16171A;
 }
