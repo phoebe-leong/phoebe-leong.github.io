@@ -2,51 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>sam and greta</title>
+        <title>ph3b3's story</title>
         <link rel="icon" href="../favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href="../style.css">
-
-        <script src="../theme.js"></script>
-        <script>
-            function go() {
-                window.location.href = "pdfs/sam&greta/samandgreta.pdf";
-            }
-
-            window.onload = function() {
-                loadThemes()
-            }
-        </script>
+        <script src="../script.js"></script>
     </head>
     <body>
         <main>
-            <nav>
-                <ul>
-                    <a href="/">home</a>
-                    <a href="https://soundcloud.com/ph3b3" target="_blank">music</a>
-                    <a href="https://github.com/phoebe-leong/?tab=repositories" target="_blank">github</a>
-                    <a href="https://ph3b3.carrd.co/" target="_blank">socials</a>
-                    <a href="../stories.html">stories</a>
-
-                    <a id="theme-button" onclick="toggle()">change theme</a>
-                </ul>
-            </nav><br><br><br><br><br>
-            <h2>
-                Sam and Greta
-            </h2>
-            <p>
-                Two thirteen year olds, one French and one German, are fighting in the Battle of France during World War Two when they<br>
-                miraculously find each other when the German is captured as a POW.<br>
-                Genre: Romance<br><br>
-
-                <button onclick = "go()">
-                    Read Book 1
-                </button>
-                <a href="pdfs/sam&greta/thebritisharmy.pdf">
-                    <button>
-                        Read Book 2
-                    </button>
-                </a>
-            </p>
+            <h1>sam and greta.</h1>
+            <section>
+                <p>
+                    Two thirteen year olds, one French and one German, are fighting in<br>the Battle of France during World War Two and
+                    miraculously find<br>each other when one is captured as a POW.<br><br>
+                    Genre: Romance
+                </p>
+                <button onclick="newTab('pdfs/sam&greta/samandgreta.pdf')" class="samAndGreta">Read Book 1</button>
+                <button onclick="newTab('pdfs/sam&greta/thebritisharmy.pdf')" class="samAndGreta">Read Book 2</button>
+            </section>
         </main>
     </body>
 </html>

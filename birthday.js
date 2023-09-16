@@ -1,5 +1,4 @@
-function getAge()
-{
+function getAge() {
     const date = new Date()
 
     // Minus 2007 (ph3b3's birth year) from the current year to get phebe's theoretical current age
@@ -10,8 +9,6 @@ function getAge()
     else return age;
 }
 
-// Sets phebe's age on the "General information about ph3b3" section - called on page load
-function setAge()
-{
+window.onload = () => {
     document.getElementById("age").innerHTML = "Age: " + getAge();
 }
