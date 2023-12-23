@@ -38,6 +38,8 @@ nav, h2, h1 {
 #home {
     margin-top: 300px;
     user-select: none;
+
+    font-size: 20px;
 }
 
 #home a {
